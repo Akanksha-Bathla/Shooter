@@ -16,6 +16,7 @@ FPS = 60
 
 #define game variables
 GRAVITY = 0.75
+TILE_SIZE = 40
 
 #define player action variable
 moving_left = False
@@ -186,11 +187,11 @@ class Bullet(pygame.sprite.Sprite):
             if player.alive:
                 player.health -= 5
                 self.kill()
-
-        if pygame.sprite.spritecollide(enemy, bullet_group, False):
-            if enemy.alive:
-                enemy.health -= 25
-                self.kill()
+        for enemy in enemy_group:
+            if pygame.sprite.spritecollide(enemy, bullet_group, False):
+                if enemy.alive:
+                    enemy.health -= 25
+                    self.kill()
 
 class Grenade(pygame.sprite.Sprite):
     def __init__(self, x, y, direction):
@@ -230,7 +231,14 @@ class Grenade(pygame.sprite.Sprite):
             explosion_group.add(explosion)
             #do damage to anyone that is near by
             if abs(self.rect.centerx - player.rect.centerx) < TILE_SIZE * 2 and \
-                abs(self.rect.centery - player.rect.centery) < TILE_SIZE * 2
+                abs(self.rect.centery - player.rect.centery) < TILE_SIZE * 2:
+                player.health -= 50
+            
+            for enemy in enemy_group:
+                if abs(self.rect.centerx - enemy.rect.centerx) < TILE_SIZE * 2 and \
+                    abs(self.rect.centery - enemy.rect.centery) < TILE_SIZE * 2:
+                    enemy.health -= 50
+                    
 
 class Explosion(pygame.sprite.Sprite):
     def __init__(self, x, y, scale):
@@ -261,13 +269,17 @@ class Explosion(pygame.sprite.Sprite):
                 self.image = self.images[self.frame_index]
 
 #create sprite groups
+enemy_group = pygame.sprite.Group()
 bullet_group = pygame.sprite.Group()
 grenade_group = pygame.sprite.Group()
 explosion_group = pygame.sprite.Group()
 
 
 player = Soldier('player', 200, 200, 3, 5, 20, 5)
-enemy = Soldier('enemy', 400, 200, 3, 5, 20)
+enemy = Soldier('enemy', 400, 200, 3, 5, 20,0)
+enemy2 = Soldier('enemy', 300, 300, 3, 5, 20,0)
+enemy_group.add(enemy)
+enemy_group.add(enemy2)
 
 
 x = 200
@@ -282,8 +294,9 @@ while run:
     player.update()
     player.draw()
 
-    enemy.update()
-    enemy.draw()
+    for enemy in enemy_group:
+        enemy.update()
+        enemy.draw()
 
     #update and draw groups
     bullet_group.update()
