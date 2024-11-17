@@ -1,2 +1,0 @@
-    enemy.update()
-        e
