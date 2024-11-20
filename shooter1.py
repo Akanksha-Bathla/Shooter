@@ -673,6 +673,10 @@ while run:
         for x in range(player.grenades):
             screen.blit(grenade_img, (135 + (x * 15), 60))
 
+        level_text = f"LEVEL: {level}"
+        level_width = font.size(level_text)[0]  # Get the width of the level text
+        screen.blit(font.render(level_text, True, WHITE), ((screen.get_width() - level_width) // 2, 10))
+
 
         player.update()
         player.draw()
