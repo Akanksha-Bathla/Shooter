@@ -38,6 +38,7 @@ Watch as the player successfully completes the level and progresses to the next:
 - **Technologies:** Python, Pygame
 - **Core Concepts:** AI-powered enemies, level design, resource management.
 - **Gameplay Video:**
+
   [Watch Video](https://github.com/user-attachments/assets/c8616782-3301-4bb7-91a7-6dffb29859af)
 
 ## 🕹️ Controls
