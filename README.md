@@ -5,6 +5,40 @@
 A fast-paced, AI-powered combat platformer developed using Pygame. Navigate treacherous terrains, combat enemies, and collect resources to survive through multiple challenging levels.
 
 ## 🎮 Gameplay
+#### 🔫 Shooting Preview
+Watch the shooting mechanics in action: 
+
+<video width="600" controls>
+  <source src="./video_previews/shoot_preview.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+#### 💣 Grenade Preview
+See how grenades impact enemies and terrain: 
+
+<video width="600" controls>
+  <source src="./video_previews/grenade_preview.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+#### 🩸 Player Dies Mid-Level
+Experience the tension as the player battles but fails to survive: 
+
+<video width="600" controls>
+  <source src="./video_previews/player_dies.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+#### 🏃 Level Completion
+Watch as the player successfully completes the level and progresses to the next: 
+
+<video width="600" controls>
+  <source src="./video_previews/final_game_preview.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+*Note: Level 2 is intentionally left as a mystery for players to experience themselves.*
 - **Objective:** Survive, collect resources, and advance through levels.
 - **Enemy AI:** Dynamic shooting mechanics that activate when the player enters enemy territory.
 - **Challenges:** Tough landscapes, collectible health packs, ammo, and grenades.
@@ -18,9 +52,9 @@ A fast-paced, AI-powered combat platformer developed using Pygame. Navigate trea
 - **Core Concepts:** AI-powered enemies, level design, resource management.
 - **Gameplay Video:**
   <video width="600" controls>
-  <source src="./path/to/video.mp4" type="video/mp4">
+  <source src="./video_previews/final_game_preview.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video>
+  </video>
 
 ## 🕹️ Controls
 - **Left Arrow Keys or A:** Backward Player Movement 
