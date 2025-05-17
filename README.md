@@ -8,35 +8,22 @@ A fast-paced, AI-powered combat platformer developed using Pygame. Navigate trea
 #### 🔫 Shooting Preview
 Watch the shooting mechanics in action: 
 
-<video width="600" controls>
-  <source src="./videos/shoot_preview.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[Watch Video](https://github.com/user-attachments/assets/8ac586b2-26d5-45cb-8422-258a28deafe0)
 
 #### 💣 Grenade Preview
 See how grenades impact enemies and terrain: 
 
-<video width="600" controls>
-  <source src="./videos/grenade_preview.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[Watch Video](https://github.com/user-attachments/assets/68d5fb4a-cff4-4824-9efd-39f02ac7900b)
 
 #### 🩸 Player Dies Mid-Level
 Experience the tension as the player battles but fails to survive: 
 
-<video width="600" controls>
-  <source src="./videos/player_dies.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[Watch Video](https://github.com/user-attachments/assets/f390b835-572f-415a-884c-81fc247ebfd2)
 
 #### 🏃 Level Completion
 Watch as the player successfully completes the level and progresses to the next: 
 
-<video width="600" controls>
-  <source src="./videos/final_game_preview.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+[Watch Video](https://github.com/user-attachments/assets/c8616782-3301-4bb7-91a7-6dffb29859af)
 
 *Note: Level 2 is intentionally left as a mystery for players to experience themselves.*
 - **Objective:** Survive, collect resources, and advance through levels.
@@ -51,10 +38,7 @@ Watch as the player successfully completes the level and progresses to the next:
 - **Technologies:** Python, Pygame
 - **Core Concepts:** AI-powered enemies, level design, resource management.
 - **Gameplay Video:**
-  <video width="600" controls>
-  <source src="./videos/final_game_preview.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-  </video>
+  [Watch Video](https://github.com/user-attachments/assets/c8616782-3301-4bb7-91a7-6dffb29859af)
 
 ## 🕹️ Controls
 - **Left Arrow Keys or A:** Backward Player Movement 
