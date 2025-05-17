@@ -9,7 +9,7 @@ A fast-paced, AI-powered combat platformer developed using Pygame. Navigate trea
 Watch the shooting mechanics in action: 
 
 <video width="600" controls>
-  <source src="./video_previews/shoot_preview.mp4" type="video/mp4">
+  <source src="./videos/shoot_preview.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -17,7 +17,7 @@ Watch the shooting mechanics in action:
 See how grenades impact enemies and terrain: 
 
 <video width="600" controls>
-  <source src="./video_previews/grenade_preview.mp4" type="video/mp4">
+  <source src="./videos/grenade_preview.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -25,7 +25,7 @@ See how grenades impact enemies and terrain:
 Experience the tension as the player battles but fails to survive: 
 
 <video width="600" controls>
-  <source src="./video_previews/player_dies.mp4" type="video/mp4">
+  <source src="./videos/player_dies.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -33,7 +33,7 @@ Experience the tension as the player battles but fails to survive:
 Watch as the player successfully completes the level and progresses to the next: 
 
 <video width="600" controls>
-  <source src="./video_previews/final_game_preview.mp4" type="video/mp4">
+  <source src="./videos/final_game_preview.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -52,7 +52,7 @@ Watch as the player successfully completes the level and progresses to the next:
 - **Core Concepts:** AI-powered enemies, level design, resource management.
 - **Gameplay Video:**
   <video width="600" controls>
-  <source src="./video_previews/final_game_preview.mp4" type="video/mp4">
+  <source src="./videos/final_game_preview.mp4" type="video/mp4">
   Your browser does not support the video tag.
   </video>
 
